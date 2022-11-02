@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="public/vite.svg">
+  <title>JS Autofill Override</title>
+</head>
+<body>
+  <h1>JS Autofill Override</h1> 
+  <form>
+    <label>
+      Full name
+      <input type="text" name="full-name" class="input__full-name" pattern="[A-Za-zА-Яа-яіїґІЇҐ\s\-]*" title="The name must contain only letters, a hyphen '-' and space ' ' character." required>
+    </label>
+    <label>
+      Age
+      <input type="number" name="age" class="input__age" min="0" step="1" required>
+    </label>
+    <input type="submit" value="Save" />
+  </form>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
