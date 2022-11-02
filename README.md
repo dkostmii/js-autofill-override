@@ -11,7 +11,13 @@ Overriding autofill styles of input using CSS.
     npm run install
     ```
 
-3. Run the `dev` script to startup [Vite](https://vitejs.dev) server.
+3. Run the `dev` script to startup [Vite](https://vitejs.dev) server:
+
+    ```bash
+    npm run dev
+    ```
+
+For more information, go [here](https://vitejs.dev/guide/static-deploy.html#testing-the-app-locally).
 
 ## Description
 
